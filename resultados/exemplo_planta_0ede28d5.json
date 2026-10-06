@@ -1,0 +1,50 @@
+{
+    "plant_id": "plant_001",
+    "image_id": "exemplo_planta",
+    "status": "ok",
+    "model": "plant-sim-0.1",
+    "timestamp": "2026-09-28T10:46:47+00:00",
+    "image_size": {
+        "width": 1024,
+        "height": 768
+    },
+    "plant_found": true,
+    "detections": [
+        {
+            "id": "node_01",
+            "type": "cut_node",
+            "x": 456,
+            "y": 184,
+            "confidence": 0.96
+        },
+        {
+            "id": "node_02",
+            "type": "cut_node",
+            "x": 466,
+            "y": 292,
+            "confidence": 0.87
+        },
+        {
+            "id": "node_03",
+            "type": "cut_node",
+            "x": 512,
+            "y": 410,
+            "confidence": 0.95
+        },
+        {
+            "id": "node_04",
+            "type": "cut_node",
+            "x": 538,
+            "y": 553,
+            "confidence": 0.87
+        }
+    ],
+    "grasp_points": [
+        {
+            "id": "grasp_01",
+            "x": 548,
+            "y": 686,
+            "confidence": 0.86
+        }
+    ]
+}
