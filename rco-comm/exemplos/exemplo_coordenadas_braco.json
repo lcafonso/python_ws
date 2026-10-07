@@ -1,0 +1,93 @@
+{
+  "object_id": "PLANT-IMG-001",
+  "image_id": "IMG-001",
+  "analysis_id": "ANALYSIS-61167DBC01CA",
+  "request_id": "AI_REQUEST-09C5CC78CC01",
+  "intervention_type": "cut",
+  "frame_id": "robot_b_base",
+  "units": "m",
+  "calibration": "EXEMPLO - valores fictícios, substituir pela calibração real da câmara e do braço",
+  "points": [
+    {
+      "id": 1,
+      "type": "cut_node",
+      "confidence": 0.96,
+      "position": {
+        "x": 0.5111,
+        "y": 0.0311,
+        "z": 0.3
+      },
+      "source": "pixel",
+      "source_pixel": {
+        "u": 456.0,
+        "v": 184.0
+      },
+      "camera_position": {
+        "x": -0.0311,
+        "y": -0.1111,
+        "z": 0.5
+      }
+    },
+    {
+      "id": 2,
+      "type": "cut_node",
+      "confidence": 0.87,
+      "position": {
+        "x": 0.4511,
+        "y": 0.0256,
+        "z": 0.3
+      },
+      "source": "pixel",
+      "source_pixel": {
+        "u": 466.0,
+        "v": 292.0
+      },
+      "camera_position": {
+        "x": -0.0256,
+        "y": -0.0511,
+        "z": 0.5
+      }
+    },
+    {
+      "id": 3,
+      "type": "cut_node",
+      "confidence": 0.95,
+      "position": {
+        "x": 0.3856,
+        "y": 0.0,
+        "z": 0.3
+      },
+      "source": "pixel",
+      "source_pixel": {
+        "u": 512.0,
+        "v": 410.0
+      },
+      "camera_position": {
+        "x": 0.0,
+        "y": 0.0144,
+        "z": 0.5
+      }
+    },
+    {
+      "id": 4,
+      "type": "cut_node",
+      "confidence": 0.87,
+      "position": {
+        "x": 0.3061,
+        "y": -0.0144,
+        "z": 0.3
+      },
+      "source": "pixel",
+      "source_pixel": {
+        "u": 538.0,
+        "v": 553.0
+      },
+      "camera_position": {
+        "x": 0.0144,
+        "y": 0.0939,
+        "z": 0.5
+      }
+    }
+  ],
+  "timestamp": "2026-10-07T10:34:45.275Z"
+}

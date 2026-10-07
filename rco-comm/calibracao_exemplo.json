@@ -1,0 +1,20 @@
+{
+  "description": "EXEMPLO - valores fictícios, substituir pela calibração real da câmara e do braço",
+  "camera_frame": "intervention_camera",
+  "robot_frame": "robot_b_base",
+  "camera": {
+    "width": 1024,
+    "height": 768,
+    "fx": 900.0,
+    "fy": 900.0,
+    "cx": 512.0,
+    "cy": 384.0
+  },
+  "plane_distance_m": 0.50,
+  "T_robot_camera": [
+    [ 0.0, -1.0,  0.0, 0.40],
+    [-1.0,  0.0,  0.0, 0.00],
+    [ 0.0,  0.0, -1.0, 0.80],
+    [ 0.0,  0.0,  0.0, 1.00]
+  ]
+}
