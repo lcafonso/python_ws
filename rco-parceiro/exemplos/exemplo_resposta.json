@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "message_type": "AI_ANALYSIS_RESPONSE",
+  "message_id": "26d4ead1c4584f928c89b70b19f2f45c",
+  "request_id": "AI_REQUEST-D48A9B594416",
+  "object_id": "PLANT-000123",
+  "image_id": "IMG-00891",
+  "analysis_id": "ANALYSIS-E48EA0614023",
+  "status": "ok",
+  "intervention_type": "cut",
+  "confidence": 0.87,
+  "frame_id": "intervention_camera",
+  "image_size": {
+    "width": 1024,
+    "height": 768
+  },
+  "points": [
+    {
+      "id": 1,
+      "type": "cut_node",
+      "confidence": 0.96,
+      "pixel": {
+        "u": 456.0,
+        "v": 184.0
+      }
+    },
+    {
+      "id": 2,
+      "type": "cut_node",
+      "confidence": 0.87,
+      "pixel": {
+        "u": 466.0,
+        "v": 292.0
+      }
+    },
+    {
+      "id": 3,
+      "type": "cut_node",
+      "confidence": 0.95,
+      "pixel": {
+        "u": 512.0,
+        "v": 410.0
+      }
+    },
+    {
+      "id": 4,
+      "type": "cut_node",
+      "confidence": 0.87,
+      "pixel": {
+        "u": 538.0,
+        "v": 553.0
+      }
+    }
+  ],
+  "model": {
+    "name": "plant-sim",
+    "version": "0.2"
+  },
+  "processing_ms": 1028,
+  "timestamp": "2026-10-07T09:35:58.657Z"
+}

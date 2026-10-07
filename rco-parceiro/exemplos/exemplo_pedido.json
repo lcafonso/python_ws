@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "message_type": "AI_ANALYSIS_REQUEST",
+  "message_id": "f48050bd1e6642298a524c760cff1b87",
+  "request_id": "AI_REQUEST-D14C486C200F",
+  "attempt": 1,
+  "object_id": "PLANT-000123",
+  "image": {
+    "image_id": "IMG-00891",
+    "camera_id": "intervention_camera_01",
+    "encoding": "jpeg",
+    "width": 1024,
+    "height": 768,
+    "sha256": "a8324092de6faa81f1034407ac6e8954c25ab745ff1d2883b63d463bd3037696",
+    "data_base64": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcG...(base64 da imagem)..."
+  },
+  "object_context": {
+    "object_type": "plant",
+    "frame_id": "intervention_camera"
+  },
+  "timestamp": "2026-10-07T09:36:19.242Z",
+  "deadline": "2026-10-07T09:36:49.243Z"
+}
